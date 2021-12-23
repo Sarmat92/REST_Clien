@@ -7,15 +7,19 @@ public class Employee {
     private String surname;
     private String department;
     private int salary;
+    private String jobTitle;
+    private String dataOfBirth;
 
     public Employee() {
     }
 
-    public Employee(String name, String surname, String department, int salary) {
+    public Employee(String name, String surname, String department, int salary, String jobTitle, String dataOfBirth) {
         this.name = name;
         this.surname = surname;
         this.department = department;
         this.salary = salary;
+        this.jobTitle = jobTitle;
+        this.dataOfBirth = dataOfBirth;
     }
 
     public int getId() {
@@ -58,6 +62,22 @@ public class Employee {
         this.salary = salary;
     }
 
+    public String getJobTitle() {
+        return jobTitle;
+    }
+
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
+    }
+
+    public String getDataOfBirth() {
+        return dataOfBirth;
+    }
+
+    public void setDataOfBirth(String dataOfBirth) {
+        this.dataOfBirth = dataOfBirth;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -66,6 +86,8 @@ public class Employee {
                 ", surname='" + surname + '\'' +
                 ", department='" + department + '\'' +
                 ", salary=" + salary +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", dataOfBirth='" + dataOfBirth + '\'' +
                 '}';
     }
 }

@@ -21,13 +21,13 @@ public class App
 //        List<Employee> allEmployee = communication.getAllEmployee();
 //        System.out.println(allEmployee);
 
-//        Employee employeeById = communication.getEmployee(3);
+//        Employee employeeById = communication.getEmployee(4);
 //        System.out.println(employeeById);
 
-//        Employee employee = new Employee("Artur", "Barabanov", "IT", 900);
-//
+//        Employee employee = new Employee("Artur", "Barabanov", "IT", 900,"jobTitle"
+//                , "12.06.1999");
 //        communication.saveEmployee(employee);
 
-//        communication.deleteEmployee(11);
+//        communication.deleteEmployee(1);
     }
 }
